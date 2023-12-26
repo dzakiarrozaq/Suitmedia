@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Suitmedia</string>
+    <string name="input_name">Name</string>
+    <string name="check_button">Check</string>
+    <string name="next_button">Next</string>
+    <string name="title_activity_list">ListActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="default_email">email@email.com</string>
+    <string name="third_screen">Third Screen</string>
+    <string name="second_screen">Second Screen</string>
+    <string name="selected_user_name">Selected User Name</string>
+    <string name="choose_a_user">Choose a User</string>
+    <string name="welcome">Welcome</string>
+    <string name="default_username">Username</string>
+    <string name="no_data_available">No data available</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="selected_user_namee">Selected User Name</string>
+</resources>

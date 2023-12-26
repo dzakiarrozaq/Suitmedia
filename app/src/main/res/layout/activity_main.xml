@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleMarginStart="60dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/second_screen"
+        app:titleCentered="true"
+        app:titleTextColor="@color/black"
+        app:subtitleTextAppearance="@style/ToolbarSubtitleTextAppearance"/>
+
+    <TextView
+        android:id="@+id/tvSelectedUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:text="@string/selected_user_name"
+        android:fontFamily="@font/poppinsreg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/welcome"
+        android:fontFamily="@font/poppinsreg"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar1"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_username"
+        android:fontFamily="@font/poppinsreg"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvWelcome"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/bottomButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_a_user"
+        android:fontFamily="@font/poppinsreg"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
